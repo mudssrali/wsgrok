@@ -1,0 +1,40 @@
+{
+  "name": "wssgrok",
+  "version": "1.0.0",
+  "description": "WebSocket API wrapper for creating and managing WebSocket connections",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudssrali/wssgrok"
+  },
+  "keywords": [
+    "websocket",
+    "real-time",
+    "websocket-api",
+    "ws-wrapper",
+    "ws-wrapper-api",
+    "ws-browser-api"
+  ],
+  "author": "Mudassar Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudssrali/wssgrok/issues"
+  },
+  "homepage": "https://github.com/mudssrali/wssgrok#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "uuid": "^11.0.5"
+  }
+}
